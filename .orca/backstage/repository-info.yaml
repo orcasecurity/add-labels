@@ -1,0 +1,28 @@
+APIVersion: backstage.io/v1alpha1
+Kind: Component
+Metadata:
+  Name: add-labels
+  Description: Repository for add-labels code.
+  Labels:
+    orca.security/is-production: "false"
+    orca.security/repo-is-fork: undefined
+  Annotations:
+    github.com/team-slug: orcasecurity/group:default/eee-team
+    orca.security/jira-project-key: EE
+    orca.security/jira-project-name: Engineering Enablement
+  Links:
+    - Title: Source Code
+      URL: https://github.com/orcasecurity/add-labels
+      Icon: github
+      Type: url
+    - Title: Jira
+      URL: https://orcasecurity.atlassian.net/secure/RapidBoard.jspa?rapidView=125
+      Icon: grading
+      Type: url
+    - Title: Homepage
+      Icon: web
+      Type: url
+Spec:
+  Type: repository
+  Lifecycle: production
+  Owner: group:default/eee-team
